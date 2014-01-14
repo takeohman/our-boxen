@@ -76,3 +76,6 @@ github "mou",		"1.1.3"
 github "textwrangler",	"1.0.2"
 github "libreoffice",	"4.1.4"
 github "virtualbox",	"1.0.5"
+github "tunnelblick",	"1.0.4"
+github "vagrant",	"3.0.2"
+

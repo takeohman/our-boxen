@@ -41,13 +41,17 @@ class people::takeohman {
 
 	# lib
 	include java
-	include php::5_4
+#	include php::5_4
 	include mysql
 
 	include chrome::chromium
-	include wget
+#	include wget
 	include textwrangler	
 	include skype
+
+	include tunnelblick::beta
+	include vagrant
+	include virtualbox
 
 	include libreoffice
 
@@ -72,6 +76,23 @@ class people::takeohman {
 	'SourceTree':
 	source=>'http://downloads.atlassian.com/software/sourcetree/SourceTree_1.8.0.3.dmg',
 	provider=>'appdmg';
+
+	'SophosAntivirusForMac':
+	source => "http://downloads.sophos.com/home-edition/savosx_90_he.zip",
+	provider => compressed_app;
+	}
+
+	# homebrew
+	package {
+		[
+		'gawk',
+		'gnu-sed',
+		'gnu-time',
+		'tmux',
+		'tig',
+		'wget',
+		'zsh',
+		]:
 	}
 }
 

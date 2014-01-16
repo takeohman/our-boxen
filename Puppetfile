@@ -58,24 +58,33 @@ github "xquartz",    "1.1.0"
 
 github "osx",            "1.6.0"
 
-github "java",           "1.1.0"
-github "php",            "1.1.0"
-github "libtool",        "1.0.0" # use for php
-github "pkgconfig",      "1.0.0" # use for php
-github "pcre",           "1.0.0" # use for php
-github "libpng",         "1.0.0" # use for php
-github "imagemagick",	"1.2.0"
+github "java",           "1.2.0"
+#github "php",            "1.1.0"
+#github "libtool",        "1.0.0" # use for php
+#github "pkgconfig",      "1.0.0" # use for php
+#github "pcre",           "1.0.0" # use for php
+#github "libpng",         "1.0.0" # use for php
+#github "imagemagick",	"1.2.0"
 
 github "mysql",		"1.2.0"
-github "wget",  	"1.0.0"
+#github "wget",  	"1.0.0"
 
+# Virtual Machine
+github "virtualbox",	"1.0.5"
+github "vagrant",	"3.0.2"
+
+# Network
+github "iterm2",	"1.0.6"
+github "tunnelblick",	"1.0.4"
+
+# Browzers
 github "chrome",	"1.1.2"
 github "firefox",	"1.1.1"
 github "skype",		"1.0.8"
+
+# for editing
 github "mou",		"1.1.3"
 github "textwrangler",	"1.0.2"
 github "libreoffice",	"4.1.4"
-github "virtualbox",	"1.0.5"
-github "tunnelblick",	"1.0.4"
-github "vagrant",	"3.0.2"
+
 

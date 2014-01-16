@@ -44,14 +44,18 @@ class people::takeohman {
 #	include php::5_4
 	include mysql
 
+	include vagrant
+	include virtualbox
+
 	include chrome::chromium
 #	include wget
 	include textwrangler	
+
+	# Network
+	include tunnelblick::beta
+	include iterm2::stable
 	include skype
 
-	include tunnelblick::beta
-	include vagrant
-	include virtualbox
 
 	include libreoffice
 

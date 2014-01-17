@@ -50,6 +50,7 @@ class people::takeohman {
 	include chrome::chromium
 #	include wget
 	include textwrangler	
+	include mou
 
 	# Network
 	include tunnelblick::beta
@@ -96,6 +97,8 @@ class people::takeohman {
 		'tig',
 		'wget',
 		'zsh',
+		'ghc',		#for haskell
+		'haskell-platform', #for haskell
 		]:
 	}
 }

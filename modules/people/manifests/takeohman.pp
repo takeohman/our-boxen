@@ -40,6 +40,7 @@ class people::takeohman {
 	# include turn-off-dashboard
 
 	# lib
+	include autoconf
 	include java
 #	include php::5_4
 	include mysql

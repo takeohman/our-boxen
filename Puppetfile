@@ -66,6 +66,7 @@ github "java",           "1.2.0"
 #github "libpng",         "1.0.0" # use for php
 #github "imagemagick",	"1.2.0"
 
+github "autoconf",	"1.0.0"
 github "mysql",		"1.2.0"
 #github "wget",  	"1.0.0"
 
@@ -80,11 +81,17 @@ github "tunnelblick",	"1.0.4"
 # Browzers
 github "chrome",	"1.1.2"
 github "firefox",	"1.1.1"
+
+# Messaging
 github "skype",		"1.0.8"
+github "adium",     "1.3.0"     #2014/01/26 
 
 # for editing
 github "mou",		"1.1.3"
 github "textwrangler",	"1.0.2"
 github "libreoffice",	"4.1.4"
 
-github "autoconf",	"1.0.0"
+# for movie files
+github "handbrake",     "1.0.1" # 2014/01/26
+github "vlc",           "1.0.5" # 2014/01/26
+

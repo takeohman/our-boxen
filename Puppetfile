@@ -90,6 +90,8 @@ github "adium",     "1.3.0"     #2014/01/26
 github "mou",		"1.1.3"
 github "textwrangler",	"1.0.2"
 github "libreoffice",	"4.1.4"
+github "evernote",      "2.0.5"
+github "dropbox",       "1.2.0"
 
 # for movie files
 github "handbrake",     "1.0.1" # 2014/01/26

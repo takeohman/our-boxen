@@ -55,6 +55,8 @@ class people::takeohman {
 	include libreoffice
 	include textwrangler	
 	include mou
+    include evernote
+    include dropbox
 
 	# Network
 	include tunnelblick::beta
@@ -98,6 +100,10 @@ class people::takeohman {
 	'SophosAntivirusForMac':
 	source => "http://downloads.sophos.com/home-edition/savosx_90_he.zip",
 	provider => compressed_app;
+
+	'Eijiro Viewer':
+	source=>'http://numata.designed.jp/files/software/eview/eview_2.0_universal.zip',
+	provider=>'compressed_app';
 
 #	'HP Photosmart 6520 Driver':
 #	source => "http://h30437.www3.hp.com/pub/softlib/software12/COL51728/mp-125170-1/HP-Inkjet-SW-OSX-Mavericks_v12.34.44.dmg",
